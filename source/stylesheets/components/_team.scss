@@ -1,11 +1,16 @@
-
-
-ul, h1 {
+.erland-title {
+  text-align: center;
+  color: white;
+  background: $green;
+  margin: 0;
+}
+.team-list {
   display: flex;
   justify-content: center;
+  background: $orange;
 }
 
-li {
+.team-list-item {
   margin-right: 20px;
   img {
     width: 150px;
