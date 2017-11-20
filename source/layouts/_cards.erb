@@ -1,5 +1,5 @@
 <ul class="list-inline">
-  <% %w(shanghai berlin paris tokyo rio) do |city| %>
+  <% %w(shanghai berlin paris tokyo rio).each do |city| %>
   <li>
     <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%= city %>');">
       <div class="card-category">Popular</div>
