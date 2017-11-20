@@ -3,6 +3,7 @@ title: Le Wagon - Middleman
 ---
 
 <div id="home">
+  <%= "layouts/banner" %>
   <div class="home-content">
     <%= image_tag "logo.png", width: "200" %>
     <p>
@@ -12,4 +13,10 @@ title: Le Wagon - Middleman
       <%= link_to "More about this template", "about.html" %>
     </p>
   </div>
+  <ul class="list-inline">
+    <% %("layouts/cards").each do |card| %>
+    <li>
+      <p><%= city %></p>
+    </li>
+  </ul>
 </div>
